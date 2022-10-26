@@ -2,6 +2,11 @@
 #include "mysettings.h"
 #include "tuer.h"
 #include "ledstripe.h"
+#include <WiFi.h>
+#include <ArduinoOTA.h>
+#include <PubSubClient>
+
+
 
 void setup() {
   // put your setup code here, to run once:
